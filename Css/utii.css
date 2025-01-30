@@ -72,6 +72,10 @@
 .btn:hover {
   opacity: 0.4;
 }
+.btn-primary {
+  color: #2c3333;
+  background-color: var(--primary);
+}
 .btn-succes {
   color: var(--white);
   background-color: var(--succes);
@@ -90,7 +94,7 @@
 }
 .btn-outline-dark {
   background-color: transparent;
-  border: 1px solid var(--succes);
+  border: 1px solid var(--dark);
 }
 .btn-outline-dark:hover {
   color: var(--white);
