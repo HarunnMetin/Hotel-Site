@@ -74,6 +74,7 @@ img {
 }
 /* header */
 .main-header {
+  position: relative;
   background-image: url("../hotel-site/img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,4 +114,36 @@ img {
   font-size: 2rem;
   max-width: 60rem;
   margin: 2rem 0 3rem;
+}
+/* flek-items */
+.flex-items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.flex-items > div {
+  padding: 20px;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+/* icons */
+.icons {
+  padding: 30px;
+}
+.icons h3 {
+  font-weight: 400px;
+  margin-bottom: 15px;
+  color: var(--white);
+  font-size: 3rem;
+}
+.icons i {
+  background-color: #b3c8cf;
+  color: #003285;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+.icons p {
+  font-size: 2rem;
 }
