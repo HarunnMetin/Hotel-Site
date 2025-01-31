@@ -163,3 +163,32 @@ img {
 .flex-columns .column .column-2 {
   height: 100%;
 }
+.flex-columns .column-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+}
+/* @media (max-width: 544px) {
+  .flex-columns .row {
+    flex-direction: column;
+  }
+} */
+
+#about {
+  color: #893636;
+}
+.flex-columns h1 {
+  font-size: 4rem;
+}
+.flex-columns p {
+  margin: 2rem 0;
+}
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
